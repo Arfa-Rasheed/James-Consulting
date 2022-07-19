@@ -1,0 +1,1054 @@
+@media (max-width: 998px) {
+  * {
+    overflow-x: hidden;
+    margin: 0px;
+  }
+}
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+    margin: 0px;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body h1, body h3, body p {
+  font-family: "raleway";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.MainContainer {
+  width: 65%;
+  padding-top: 100px;
+  margin: auto;
+}
+.MainContainer h1 {
+  font-size: 70px;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: 300;
+  color: rgb(12, 60, 96);
+  font-family: "raleway";
+}
+.MainContainer .MainText {
+  width: 68%;
+  margin: auto;
+  margin-top: 4rem;
+}
+.MainContainer .MainText p {
+  font-family: "raleway";
+  color: #0C3C60;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1.6rem;
+}
+@media (max-width: 998px) {
+  .MainContainer .MainText p {
+    font-size: 1.8rem;
+  }
+  .MainContainer .MainText p html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  .MainContainer .MainText p {
+    font-size: 2rem;
+  }
+  .MainContainer .MainText p html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+.EmployeeContainer {
+  width: 68%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 68px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+@media (max-width: 998px) {
+  .EmployeeContainer {
+    width: 93%;
+  }
+  .EmployeeContainer html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  .EmployeeContainer {
+    width: 57%;
+  }
+  .EmployeeContainer html {
+    font-size: 45%;
+  }
+}
+.EmployeeContainer .Employee {
+  width: 433px;
+  height: 318px;
+}
+.EmployeeContainer .Employee .Emp-Label {
+  display: flex;
+}
+.EmployeeContainer .Employee .Emp-Label .Emp-Name {
+  width: 325px;
+  height: 120px;
+  padding-left: 26px;
+  background-color: #0c3c60;
+  color: white;
+  font-family: "raleway";
+  font-size: 22px;
+}
+.EmployeeContainer .Employee .Emp-Detail {
+  width: 433px;
+  height: 100px;
+  line-height: 1.5em;
+  font-size: 1.4rem;
+  font-family: "raleway";
+  margin-top: 49px;
+}
+@media (max-width: 998px) {
+  .EmployeeContainer .Employee .Emp-Detail {
+    font-size: 1.8rem;
+    height: 119px;
+    width: 426px;
+  }
+  .EmployeeContainer .Employee .Emp-Detail html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  .EmployeeContainer .Employee .Emp-Detail {
+    font-size: 2rem;
+  }
+  .EmployeeContainer .Employee .Emp-Detail html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+.AboutFooter {
+  margin-top: 20px;
+}
+
+.Services_Container {
+  width: 71%;
+  height: 53.8rem;
+  margin: auto;
+  margin-top: 6.8rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 998px) {
+  .Services_Container {
+    width: 47%;
+    margin-top: -2.2rem;
+    height: 241.8rem;
+  }
+  .Services_Container html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  .Services_Container {
+    width: 39%;
+    height: 218.8rem;
+    margin-top: 0.8rem;
+  }
+}
+.Services_Container .Services {
+  width: 292px;
+  height: 442px;
+  border: 1px solid rgb(12, 60, 96);
+}
+@media (max-width: 998px) {
+  .Services_Container .Services {
+    width: 459px;
+    height: 596.5px;
+    margin-top: 11rem;
+  }
+}
+@media (max-width: 768px) {
+  .Services_Container .Services {
+    width: 292px;
+    height: 442px;
+    margin-top: 40px;
+  }
+}
+.Services_Container .Services img {
+  width: 292px;
+  height: 194.5px;
+}
+@media (max-width: 998px) {
+  .Services_Container .Services img {
+    width: 459px;
+    height: 347.5px;
+  }
+}
+@media (max-width: 768px) {
+  .Services_Container .Services img {
+    width: 292px;
+    height: 194.5px;
+  }
+}
+.Services_Container .Service-text {
+  width: 200px;
+  height: 238px;
+  margin: auto;
+}
+.Services_Container .Service-text p {
+  font-size: 22px;
+  font-family: "raleway";
+  color: rgb(12, 60, 96);
+  text-align: center;
+}
+@media (max-width: 543px) {
+  .Services_Container .Service-text p {
+    margin-top: 3rem;
+  }
+}
+.Services_Container .Service-text #Hour {
+  font-size: 16px;
+  font-family: "Open sans";
+}
+.Services_Container .Service-text #Charges {
+  font-size: 16px;
+}
+.Services_Container .Service-text .btn {
+  width: 13.6rem;
+  height: 4.1rem;
+  margin-left: 34px;
+  background-color: rgb(12, 60, 96);
+  color: white;
+  font-size: 13.3333;
+  text-align: center;
+  border-style: none;
+}
+@media (max-width: 543px) {
+  .Services_Container .Service-text .btn {
+    margin-left: 7.6rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 998px) {
+  .Services_Footer {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 768px) {
+  .Services_Footer {
+    margin-top: 25px;
+  }
+}
+
+.ProjectContainer {
+  width: 68%;
+  height: auto;
+  padding-top: 100px;
+  margin: auto;
+}
+.ProjectContainer h1 {
+  font-size: 7rem;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: 300;
+  color: rgb(12, 60, 96);
+  font-family: "raleway";
+}
+.ProjectContainer .ProjectList {
+  margin-top: -1.3rem;
+}
+@media (max-width: 543px) {
+  .ProjectContainer .ProjectList {
+    margin-top: -7.3rem;
+  }
+}
+.ProjectContainer .ProjectList .Projects {
+  display: flex;
+  margin-top: 8.9rem;
+  width: 89.9rem;
+}
+@media (max-width: 543px) {
+  .ProjectContainer .ProjectList .Projects {
+    display: block;
+    margin-top: 15.9rem;
+  }
+}
+@media (max-width: 543px) {
+  .ProjectContainer .ProjectList .Projects img {
+    width: 365px;
+  }
+}
+.ProjectContainer .ProjectList .Projects .ProjectsText {
+  margin-top: -2.5rem;
+  margin-left: 4rem;
+  font-family: "raleway";
+  color: rgb(12, 60, 96);
+  width: 51.5rem;
+}
+@media (max-width: 543px) {
+  .ProjectContainer .ProjectList .Projects .ProjectsText {
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+    width: 53.5rem;
+  }
+}
+.ProjectContainer .ProjectList .Projects .ProjectsText .ProjectName {
+  font-size: 2.2rem;
+  color: rgb(12, 60, 96);
+}
+@media (max-width: 543px) {
+  .ProjectContainer .ProjectList .Projects .ProjectsText .ProjectName {
+    font-size: 3.2rem;
+  }
+}
+.ProjectContainer .ProjectList .Projects .ProjectsText p {
+  line-height: 1.5em;
+  font-size: 1.4rem;
+}
+@media (max-width: 998px) {
+  .ProjectContainer .ProjectList .Projects .ProjectsText p {
+    font-size: 1.8rem;
+  }
+  .ProjectContainer .ProjectList .Projects .ProjectsText p html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 543px) {
+  .ProjectContainer .ProjectList .Projects .ProjectsText p {
+    font-size: 2.3rem;
+  }
+}
+
+.Project_Footer {
+  margin-top: 8.2rem;
+}
+@media (max-width: 543px) {
+  .Project_Footer {
+    margin-top: 11.2rem;
+  }
+}
+
+.ClientsContainer {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+@media (max-width: 998px) {
+  .ClientsContainer {
+    width: 59%;
+  }
+  .ClientsContainer html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .ClientsContainer {
+    width: 72%;
+  }
+  .ClientsContainer html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 543px) {
+  .ClientsContainer {
+    width: 100%;
+  }
+}
+.ClientsContainer .Clients {
+  margin-left: 85px;
+  margin-top: 57px;
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+.Clients_Footer {
+  margin-top: 78px;
+}
+
+header {
+  position: fixed;
+  background-color: rgb(12, 60, 96);
+  height: 9.5rem;
+  width: 100%;
+  z-index: 3;
+  font-family: "raleway";
+  letter-spacing: 0.06em;
+}
+@media (max-width: 768px) {
+  header {
+    position: fixed;
+    margin-top: -1.8rem;
+  }
+}
+header .navbar {
+  display: flex;
+  width: 100rem;
+  margin: auto;
+  padding-top: 1.9rem;
+}
+@media (max-width: 998px) {
+  header .navbar {
+    width: 106rem;
+  }
+}
+@media (max-width: 768px) {
+  header .navbar {
+    width: 100rem;
+  }
+}
+@media (max-width: 543px) {
+  header .navbar {
+    width: 93%;
+  }
+}
+header .navbar .Logo {
+  font-size: 2.2rem;
+  color: white;
+  margin-top: 1.5rem;
+  font-family: "raleway";
+  letter-spacing: 0.06em;
+}
+header .navbar .Logo a {
+  text-decoration: none;
+  color: white;
+}
+header .navbar span {
+  color: #7dcada;
+}
+header .NavMenu {
+  padding-left: 23.7rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 998px) {
+  header .NavMenu {
+    padding-left: 17.7rem;
+  }
+}
+@media (max-width: 768px) {
+  header .NavMenu {
+    padding-left: 9.7rem;
+  }
+}
+@media (max-width: 677px) {
+  header .NavMenu {
+    padding-left: 4.7rem;
+  }
+}
+@media (max-width: 543px) {
+  header .NavMenu {
+    display: none;
+  }
+}
+@media (max-width: 543px) {
+  header .NavMenu ul {
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(12, 60, 96);
+    top: 54px;
+    left: 226px;
+    text-align: center;
+  }
+}
+header .NavMenu ul #Cross {
+  font-size: 20px;
+  color: white;
+  display: none;
+}
+@media (max-width: 543px) {
+  header .NavMenu ul #Cross {
+    display: block;
+    margin-left: -14rem;
+    margin-top: 4rem;
+  }
+}
+header .NavMenu ul li {
+  list-style: none;
+  display: inline;
+}
+@media (max-width: 543px) {
+  header .NavMenu ul li {
+    display: block;
+    margin-left: -43rem;
+    margin-top: 9rem;
+  }
+}
+header .NavMenu ul li #Show {
+  background-color: rgb(12, 60, 96);
+  border: none;
+  color: white;
+}
+header .NavMenu ul li a, header .NavMenu ul li #Show {
+  text-decoration: none;
+  color: white;
+  padding-left: 4rem;
+  font-family: "raleway";
+  font-size: 1.3rem;
+  transition: 0.7s ease;
+}
+@media (max-width: 998px) {
+  header .NavMenu ul li a, header .NavMenu ul li #Show {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  header .NavMenu ul li a, header .NavMenu ul li #Show {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  header .NavMenu ul li a, header .NavMenu ul li #Show {
+    font-size: 3rem;
+  }
+}
+header .NavMenu ul li :hover {
+  color: #D1E0EB;
+  cursor: pointer;
+}
+header .NavMenu ul li :active {
+  color: #D1E0EB;
+}
+
+#Hamburger {
+  font-size: 5rem;
+  color: white;
+  display: none;
+}
+@media (max-width: 543px) {
+  #Hamburger {
+    position: fixed;
+    display: block;
+    cursor: pointer;
+    margin-left: 64rem;
+    margin-top: 1rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.LandingPage1 {
+  display: flex;
+  background-image: url("https://static.wixstatic.com/media/84770f_573f9ee905a043e18a65f49e31c1c7e8.jpg/v1/fill/w_1280,h_728,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_573f9ee905a043e18a65f49e31c1c7e8.jpg");
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+@media (max-width: 998px) {
+  .LandingPage1 {
+    width: 101vw;
+  }
+}
+.LandingPage1 .AchievingGrowth {
+  align-self: flex-end;
+  width: 100%;
+  height: 15rem;
+  font-family: "raleway";
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.7;
+  z-index: 1;
+}
+.LandingPage1 .AchievingGrowth p {
+  font-size: 1.8rem;
+  color: rgb(12, 60, 96);
+  margin-top: 3.5rem;
+  margin-bottom: -2rem;
+}
+.LandingPage1 .AchievingGrowth h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  color: #0c3c60;
+  margin-top: 3.5rem;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+.LinksContainer {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .LinksContainer {
+    width: 103%;
+  }
+  .LinksContainer html {
+    font-size: 45%;
+  }
+}
+.LinksContainer .LinkToDetails {
+  width: 97rem;
+  height: 40.9rem;
+  margin: auto;
+  margin-top: 7.9rem;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 543px) {
+  .LinksContainer .LinkToDetails {
+    height: 105.9rem;
+    display: block;
+    margin-top: 0px;
+  }
+}
+.LinksContainer .LinkToDetails .Links {
+  background-color: #0c3c60;
+  color: white;
+  width: 28.8rem;
+  height: 35.3rem;
+}
+@media (max-width: 543px) {
+  .LinksContainer .LinkToDetails .Links {
+    width: 78%;
+  }
+}
+.LinksContainer .LinkToDetails .Links h3 {
+  font-weight: normal;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: "raleway";
+  font-size: 2.4rem;
+  margin-top: 2.5rem;
+}
+.LinksContainer .LinkToDetails .Links p {
+  font-family: "Open Sans";
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: normal;
+  width: 26.9rem;
+  height: 19.5rem;
+  margin: auto;
+}
+@media (max-width: 543px) {
+  .LinksContainer .LinkToDetails .Links p {
+    width: 50%;
+    height: 15.5rem;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+  }
+}
+.LinksContainer .LinkToDetails .Links .btn {
+  width: 13.6rem;
+  height: 4.1rem;
+  margin-left: 7.8rem;
+  background-color: #39729B;
+  color: white;
+  font-size: 1.33333rem;
+  text-align: center;
+  border-style: none;
+}
+.LinksContainer .LinkToDetails .Links .btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.33333rem;
+}
+@media (max-width: 543px) {
+  .LinksContainer .LinkToDetails .Links .btn {
+    margin-left: 31.8rem;
+  }
+}
+.LinksContainer .LinkToDetails .Links .btn:hover {
+  background-color: white;
+  color: rgb(12, 60, 96);
+  cursor: pointer;
+}
+.LinksContainer .LinkToDetails .Links .btn:hover a {
+  color: rgb(12, 60, 96);
+  background-color: white;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+.AboutUsContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(209, 224, 235);
+  display: flex;
+  margin-top: 4rem;
+}
+@media (max-width: 998px) {
+  .AboutUsContainer {
+    width: 101vw;
+    height: 100vh;
+    display: flex;
+  }
+}
+@media (max-width: 998px) {
+  .AboutUsContainer {
+    height: 100vh;
+    display: flex;
+  }
+}
+@media (max-width: 543px) {
+  .AboutUsContainer {
+    margin-top: 0px;
+  }
+}
+.AboutUsContainer .AboutUs {
+  width: 57%;
+  margin: auto;
+  height: 37rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(12, 60, 96);
+}
+@media (min-width: 769px) and (max-width: 998px) {
+  .AboutUsContainer .AboutUs {
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .AboutUsContainer .AboutUs {
+    width: 57%;
+    height: auto;
+    font-size: 2.4rem;
+  }
+}
+.AboutUsContainer .AboutUs h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  color: rgb(12, 60, 96);
+  font-family: "raleway";
+}
+.AboutUsContainer .AboutUs p {
+  font-family: "open sans";
+  color: #0C3C60;
+  letter-spacing: normal;
+}
+.AboutUsContainer .AboutUs .btn {
+  width: 13.6rem;
+  height: 4.1rem;
+  margin-left: -6px;
+  background-color: rgb(12, 60, 96);
+  color: white;
+  font-size: 13.3333;
+  text-align: center;
+  border-style: none;
+  margin-top: 3.5rem;
+}
+.AboutUsContainer .AboutUs .btn:hover {
+  background-color: #39729B;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 769px) and (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+.ContactContainer {
+  width: 100%;
+  height: 120vh;
+  background-color: #0c3c60;
+  padding-top: 3rem;
+  overflow-y: hidden;
+}
+@media (max-width: 998px) {
+  .ContactContainer {
+    width: 101vw;
+  }
+}
+.ContactContainer h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  font-family: "raleway";
+}
+.ContactContainer .Contact {
+  width: 100rem;
+  height: 95vh;
+  margin: 5rem auto;
+  display: flex;
+}
+@media (max-width: 543px) {
+  .ContactContainer .Contact {
+    display: block;
+  }
+}
+.ContactContainer .Contact .ContactMap {
+  width: 50%;
+  height: auto;
+  margin-left: 3.9rem;
+}
+@media (max-width: 998px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    width: 450px;
+    height: 397px;
+  }
+}
+@media (max-width: 768px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    width: 370px;
+    height: 440px;
+  }
+}
+@media (max-width: 543px) {
+  .ContactContainer .Contact .ContactMap {
+    margin-left: 11.9rem;
+  }
+}
+.ContactContainer .Contact .ContactForm {
+  width: 50%;
+  height: auto;
+  padding-left: 6.7rem;
+  color: white;
+  font-family: "open sans";
+  font-size: 1.4rem;
+}
+@media (max-width: 543px) {
+  .ContactContainer .Contact .ContactForm {
+    margin-left: 6.9rem;
+    margin-top: 13rem;
+  }
+}
+.ContactContainer .Contact .ContactForm .Address {
+  margin-left: -1.6rem;
+  margin-bottom: 3.1rem;
+}
+@media (max-width: 768px) {
+  .ContactContainer .Contact .ContactForm .Address {
+    font-size: 2rem;
+  }
+}
+.ContactContainer .Contact .ContactForm .input {
+  margin-top: 3rem;
+}
+@media (max-width: 768px) {
+  .ContactContainer .Contact .ContactForm label {
+    font-size: 2.4rem;
+  }
+}
+.ContactContainer .Contact .ContactForm input {
+  width: 33.1rem;
+  height: 2.6rem;
+  margin-top: 1.1rem;
+}
+@media (max-width: 543px) {
+  .ContactContainer .Contact .ContactForm input {
+    width: 43.1rem;
+  }
+}
+.ContactContainer .Contact .ContactForm input:hover {
+  background-color: #D1E0EB;
+}
+@media (max-width: 998px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 292px;
+    height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 240px;
+    height: 98px;
+  }
+}
+@media (max-width: 543px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 312px;
+    height: 141px;
+  }
+}
+.ContactContainer .Contact .ContactForm textarea:hover {
+  background-color: #D1E0EB;
+}
+.ContactContainer .Contact .ContactForm .btn {
+  width: 13.6rem;
+  height: 4.1rem;
+  margin-left: 20.3rem;
+  background-color: #39729B;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  border-style: none;
+  width: 13.6rem;
+  height: 3.4rem;
+  margin-top: 1.3rem;
+}
+@media (max-width: 543px) {
+  .ContactContainer .Contact .ContactForm .btn {
+    margin-left: 30.5rem;
+  }
+}
+.ContactContainer .Contact .ContactForm .btn:hover {
+  background-color: white;
+  color: rgb(12, 60, 96);
+  cursor: pointer;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+footer {
+  width: 100%;
+  height: 13rem;
+  background-color: rgb(12, 60, 96);
+}
+footer .Footer_Container {
+  width: 75%;
+  height: 7.5rem;
+  padding-top: 4.5rem;
+  margin: auto auto;
+  display: flex;
+}
+@media (max-width: 998px) {
+  footer .Footer_Container {
+    width: 93%;
+  }
+}
+@media (max-width: 768px) {
+  footer .Footer_Container {
+    margin-left: -10px;
+  }
+}
+@media (max-width: 543px) {
+  footer .Footer_Container {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-top: 1.7rem;
+  }
+}
+footer .Footer_Container .Footer_text {
+  color: white;
+  font-family: "open sans";
+  font-size: 1.4rem;
+  margin-left: 4.6rem;
+}
+@media (max-width: 998px) {
+  footer .Footer_Container .Footer_text {
+    font-size: 1.8rem;
+    width: 48.4rem;
+    margin-left: 0.6rem;
+  }
+}
+@media (max-width: 768px) {
+  footer .Footer_Container .Footer_text {
+    font-size: 1.8rem;
+    width: 48.4rem;
+    margin-left: 4.6rem;
+  }
+}
+@media (max-width: 677px) {
+  footer .Footer_Container .Footer_text {
+    width: 49.4rem;
+  }
+}
+@media (max-width: 543px) {
+  footer .Footer_Container .Footer_text {
+    width: 31rem;
+    text-align: center;
+  }
+}
+footer .Footer_Container .Footer_Icon {
+  margin-top: 0.5rem;
+  margin-left: 46rem;
+}
+@media (max-width: 998px) {
+  footer .Footer_Container .Footer_Icon {
+    margin-top: -0.5rem;
+    margin-left: 43rem;
+  }
+}
+@media (max-width: 768px) {
+  footer .Footer_Container .Footer_Icon {
+    margin-top: -0.5rem;
+    margin-left: 21rem;
+  }
+}
+@media (max-width: 677px) {
+  footer .Footer_Container .Footer_Icon {
+    padding-left: 19rem;
+  }
+}
+@media (max-width: 543px) {
+  footer .Footer_Container .Footer_Icon {
+    margin-left: 83px;
+    margin-top: 1rem;
+    padding: 0px;
+  }
+}
+footer .Footer_Container .Footer_Icon ul li {
+  display: inline;
+  margin-left: 2rem;
+}/*# sourceMappingURL=James.css.map */

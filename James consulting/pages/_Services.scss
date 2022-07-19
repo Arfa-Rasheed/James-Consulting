@@ -1,0 +1,125 @@
+.Services_Container{
+    width:71%;
+    height: 53.8rem;
+    margin:auto;
+    margin-top: 6.8rem;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+   
+    @media(max-width:998px)
+    {   
+        width:47%;
+        margin-top: -2.2rem;
+        height: 241.8rem;
+        html{
+            font-size:55%;
+        }
+    }
+    @media(max-width:768px)
+    {
+    width:39%;
+    height: 218.8rem;
+    margin-top:0.8rem;
+    // height:800px;
+        // html{
+        //     font-size:45%
+        // }
+    }
+
+    .Services{
+        width:292px;
+        height:442px;
+        border:1px solid $blue;
+        @media(max-width:998px)
+        {
+            width: 459px;
+            height:596.5px;
+            margin-top: 11rem;
+        // html{
+        //     font-size:55%
+        // }
+        }
+        @media(max-width:768px)
+        {
+            width:292px;
+            height:442px;
+            margin-top:40px;
+        // html{
+        //     font-size:45%
+        // }
+        }
+
+        img{
+            width:292px;
+            height:194.5px;
+            @media(max-width:998px)
+            {
+                width: 459px;
+                 height: 347.5px;
+            // html{
+            //     font-size:55%
+            // }
+            }
+            @media(max-width:768px)
+            {
+                width:292px;
+                height:194.5px;
+            // html{
+            //     font-size:45%
+            // }
+            }
+        }
+    }
+    .Service-text{
+        width:200px;
+        height: 238px;
+        margin:auto;
+
+        p{
+            font-size: 22px;
+            font-family: 'raleway';
+            color:$blue;
+            text-align: center;
+            @media(max-width:543px)
+            {
+                margin-top: 3rem;
+            }  
+           
+        }
+        #Hour{
+            font-size: 16px;
+            font-family: 'Open sans';
+        }
+        #Charges{
+            font-size: 16px;
+
+        }
+        .btn{
+            @include button( $blue,white,13.3333,34px);
+               @media(max-width:543px)
+            {
+                margin-left: 7.6rem;
+                margin-top: 3rem;
+            }  
+        }
+    }
+  
+}
+.Services_Footer{
+ 
+    @media(max-width:998px)
+    {
+        margin-top: 75px;
+        // html{
+        //     font-size:55%
+        // }
+    }
+    @media(max-width:768px)
+    {
+        margin-top: 25px;
+        // html{
+        //     font-size:45%
+        // }
+    }
+}

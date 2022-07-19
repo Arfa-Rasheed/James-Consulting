@@ -1,0 +1,302 @@
+@mixin Header{
+    header {
+        position:fixed;
+        background-color: rgb(12, 60, 96);
+        height: 9.5rem;
+        width:100%;
+        z-index:3;
+        font-family: 'raleway';
+        letter-spacing: 0.06em;
+
+                @media(max-width:768px)
+                {
+                    position:fixed;
+                    margin-top: -1.8rem;
+                }
+       
+        .navbar {
+            display: flex;
+            width:100rem;
+            margin: auto;
+            padding-top: 1.9rem;
+            @media(max-width:998px)
+            {
+                width:106rem;
+
+            }
+            @media(max-width:768px)
+            {
+                width:100rem;
+            }
+            @media(max-width:543px)
+            {
+                width:93%;
+            }
+            .Logo {
+                font-size: 2.2rem;
+                color: white;
+                margin-top: 1.5rem;
+                font-family: 'raleway';
+                letter-spacing: 0.06em;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+                
+
+                }
+                span{
+                   color:#7dcada;
+                }
+            }
+    
+            .NavMenu {
+                padding-left: 23.7rem;
+                margin-top: 1.5rem;
+                @media(max-width:998px)
+                {
+                    padding-left: 17.7rem;
+                   
+                }
+                @media(max-width:768px)
+                {
+                    padding-left: 9.7rem;
+                   
+                }
+                @media(max-width:677px)
+                {
+                    padding-left: 4.7rem;
+                }
+                @media(max-width:543px)
+                {
+                    display:none;
+                }
+
+                ul {
+                    @media(max-width:543px)
+                    {
+                        position: fixed;
+                        width: 100%;
+                        height: 50%;
+                        background-color: rgb(12, 60, 96);
+                        top: 54px;
+                        left: 226px;
+                        text-align: center;
+                    }
+                        
+                    #Cross{
+                        font-size: 20px;
+                        color:white;
+                        display:none;
+                        @media(max-width:543px)
+                        {
+                            display: block;
+                            margin-left: -14rem;
+                            margin-top: 4rem;
+                       
+                        }
+                    }
+    
+                    li {
+                        list-style: none;
+                        display: inline;
+                        @media(max-width:543px)
+                        {
+                            display: block;
+                            margin-left: -43rem;
+                            margin-top: 9rem;
+                       
+                        }
+                        #Show{
+                            background-color:rgb(12, 60, 96);
+                            border:none;
+                            color:white;
+
+                        }
+                        a,#Show {
+                            text-decoration: none;
+                            color: white;
+                            padding-left: 4rem;
+                            font-family: 'raleway';
+                            font-size: 1.3rem;
+                            transition: 0.7s ease;
+                            @media(max-width:998px)
+                            {
+                                font-size: 2rem;
+                             
+                            }
+                            @media(max-width:768px)
+                            {
+                                font-size: 2rem;
+                                
+                            }
+                            @media(max-width:768px)
+                            {
+                                font-size: 3rem;
+                                
+                            }
+    
+                        }
+                        :hover{
+                            color: $link_hover;
+                            cursor:pointer;
+                        }
+                        :active{
+                            color: $link_hover;
+                        }
+
+                       
+                    }
+                   
+                }
+              
+            }
+            }
+            #Hamburger{
+                font-size:5rem;
+                color:white;
+                display:none;
+                @media(max-width:543px)
+                {
+                    position: fixed;
+                    display: block;
+                    cursor: pointer;
+                    margin-left: 64rem;
+                    margin-top: 1rem;
+                   
+                }
+    
+            }
+         
+        }
+       
+     
+       
+    
+
+   
+
+
+
+
+@mixin button($background_color, $font_color, $font-size,$margin-left){
+    width: 13.6rem;
+    height: 4.1rem;
+    margin-left: $margin-left;
+    background-color:$background_color ;
+    color:white;
+    font-size:$font-size;
+    text-align: center;
+    border-style:none;
+}
+
+@mixin button_hover($background_color, $font_color)
+{
+    background-color: $background_color;
+    color:$font_color;
+   cursor:pointer;
+}
+
+
+
+@mixin Footer{
+    footer{
+        width:100%;
+        height:13rem;
+        background-color: $blue;
+        .Footer_Container{
+            width:75%;
+            height:7.5rem;
+            padding-top:4.5rem;
+            margin: auto auto;
+            display: flex;
+    
+
+            @media(max-width:998px)
+            {
+            width:93%;
+            }
+            @media(max-width:768px)
+            {
+            margin-left:-10px;
+            }
+            @media(max-width:543px)
+            {
+            display:block;
+            width:50%;
+            height: auto;
+            margin: auto;
+            padding-top: 1.7rem;
+            }
+        
+        
+           .Footer_text{
+               color:white;
+               font-family:'open sans' ;
+               font-size:1.4rem;
+               margin-left: 4.6rem;
+
+               @media(max-width:998px)
+               {
+                font-size:1.8rem;
+                width:48.4rem;
+                margin-left: 0.6rem;
+               }
+               @media(max-width:768px)
+               {
+                font-size:1.8rem;
+                width:48.4rem;
+                margin-left: 4.6rem;
+               }
+               @media(max-width:677px)
+               {
+                width:49.4rem;
+               }
+               @media(max-width:543px)
+               {
+                width: 31rem;
+                text-align: center;
+
+               }
+               
+            }
+            .Footer_Icon{
+                margin-top:0.5rem;
+                margin-left: 46rem;
+                @media(max-width:998px)
+                {
+                    margin-top:-0.5rem;
+                    margin-left: 43rem;
+             
+                }
+                @media(max-width:768px)
+                {
+                    margin-top: -0.5rem;
+                    margin-left: 21rem;
+              
+                }
+                @media(max-width:677px)
+                {
+                    padding-left: 19rem;
+                }
+                @media(max-width:543px)
+                {
+                    margin-left: 83px;
+                    margin-top: 1rem;
+                    padding:0px;
+                }
+                ul{ 
+                    li{
+                        display:inline;
+                        margin-left:2rem;
+    
+                    }
+                }
+               
+            }
+        }  
+        }
+    }
+
+
+

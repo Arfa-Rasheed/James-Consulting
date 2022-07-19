@@ -1,0 +1,409 @@
+@import "_variables";
+@import "_global";
+@import "_mixin";
+
+@import "pages/_About";
+@import "pages/_Services";
+@import "pages/_Projects";
+@import "pages/_Clients";
+
+
+
+@include Header;
+html{
+    scroll-behavior: smooth;
+}
+
+.LandingPage1 {
+    display: flex;
+    background-image: url('https://static.wixstatic.com/media/84770f_573f9ee905a043e18a65f49e31c1c7e8.jpg/v1/fill/w_1280,h_728,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_573f9ee905a043e18a65f49e31c1c7e8.jpg');
+    width:100%;
+    height:100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    @media(max-width:998px)
+    {
+    width: 101vw;
+    }
+
+    .AchievingGrowth{
+        align-self: flex-end;
+        width:100%;
+        height: 15rem;
+        font-family: 'raleway';
+        text-align:center;
+        background-color: rgb(255,255,255);
+        opacity:0.7;
+        z-index:1;
+        p{
+            font-size: 1.8rem;
+          color:$blue;
+          margin-top: 3.5rem;
+          margin-bottom: -2rem;
+        }
+        h1{
+            font-size:6rem;
+            font-weight: normal;
+            color: #0c3c60;
+            margin-top: 3.5rem;
+        }
+    }
+}
+   
+@media(max-width:998px)
+{
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px)
+{
+html{
+    font-size:45%
+}
+}
+
+
+.LinksContainer{
+    width:100%;
+   
+    @media(max-width:768px)
+    {    
+        width:103%;
+
+        html{
+            font-size:45%
+        }
+    }
+    .LinkToDetails{
+        width:97rem;
+         height: 40.9rem;
+         margin:auto;
+         margin-top: 7.9rem;
+         display:flex;
+         justify-content: space-around;
+         @media(max-width:543px)
+         {
+            height: 105.9rem;
+            display:block;
+            margin-top: 0px;
+            // justify-content: none;
+         }
+       
+         .Links{
+             background-color: #0c3c60;
+             color: white;
+             width: 28.8rem;
+             height: 35.3rem;
+             @media(max-width:543px)
+            {
+                width:78%;
+            }
+     
+             h3{
+                 font-weight: normal;
+                 text-align: center;
+                 line-height: normal;
+                 letter-spacing: normal;
+                 font-family: 'raleway';
+                 font-size: 2.4rem;
+                 margin-top: 2.5rem;
+             }
+             p{
+                 font-family: 'Open Sans' ;
+                 line-height: 1.5em;
+                 text-align: center;
+                 font-size: 1.4rem;
+                 letter-spacing: normal;
+                 width: 26.9rem;
+                 height: 19.5rem;
+                 margin: auto;
+
+                 @media(max-width:543px)
+                 {
+                    width:50%;
+                    height: 15.5rem;
+                    margin-top: 3rem;
+                    font-size: 1.6rem;
+                 }
+             }
+            
+             .btn
+             {
+                 @include button( $button,white,1.33333rem,7.8rem);
+                     a{
+                         text-decoration: none;
+                         color:white;
+                         font-size: 1.33333rem;
+                     }
+                     @media(max-width:543px)
+                    {
+                        margin-left: 31.8rem;
+                    }
+                 
+             }
+             .btn:hover{
+                 @include button_hover(white, $blue);
+                 a{
+                     color: $blue;
+                     background-color: white;
+                 }
+             }
+            
+             
+         }
+     
+     }
+}
+
+@media(max-width:998px)
+{
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size:45%
+    }
+}
+
+.AboutUsContainer
+{
+    width:100%;
+    height:100vh;
+    background-color:rgb(209,224,235);
+    display: flex;
+    margin-top: 4rem;
+    @media(max-width:998px)
+    {
+       width:101vw;
+       height:100vh;
+       display:flex;
+    }
+    @media(max-width:998px)
+    {
+        height:100vh;
+        display:flex;
+    }
+    @media(max-width:543px)
+    {
+       margin-top: 0px;
+    }
+    .AboutUs{
+        width:57%;
+        margin:auto;
+        height:37rem;
+        text-align:center;
+        font-size: 1.4rem;
+        color:$blue;
+
+        @media(min-width:769px) and (max-width:998px)
+        {
+            height:auto;
+        }
+        @media(max-width:768px)
+        {
+            width:57%;
+            height:auto;
+            font-size: 2.4rem;
+        }
+        
+
+
+        h1{
+            font-size: 6rem;
+            font-weight: normal;
+            color: $blue;
+            font-family:'raleway' ;
+        }
+        p{
+            font-family:'open sans' ;
+            color: #0C3C60;
+            letter-spacing: normal;
+        }
+        .btn{
+            @include button( $blue, white,13.3333,-6px);
+            margin-top:3.5rem;
+           
+        }
+        .btn:hover{  
+            @include button_hover($button, white);
+
+        }
+    }
+}
+@media(min-width:769px) and (max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size:45%
+    }
+}
+
+
+.ContactContainer{
+    width:100%;
+    height:120vh;
+    background-color: #0c3c60;
+    padding-top:3rem;
+    overflow-y: hidden;
+    @media(max-width:998px)
+    {
+        width:101vw;
+    }
+    
+    h1{
+        font-size: 6rem;
+        font-weight: normal;
+        text-align:center;
+        color:white;
+        font-family:'raleway' ;
+    }
+    .Contact{
+        width:100rem;
+        height:95vh;
+        margin:  5rem auto ;
+        display: flex;
+        @media(max-width:543px)
+                {
+                    display:block;
+                }
+         
+        .ContactMap{
+            width:50%;
+            height:auto;
+            margin-left: 3.9rem;
+            @media( max-width:998px)
+            {
+                iframe{
+                    width:450px;
+                    height:397px;
+                  
+                }
+            }
+            @media(max-width:768px)
+            {
+                iframe{
+                    width:370px;
+                    height:440px;
+        
+                }
+            }
+            @media(max-width:543px)
+            {
+                margin-left: 11.9rem;
+            }
+         
+            
+           
+            
+        
+        }
+        .ContactForm{
+            width:50%;
+            height:auto;
+            padding-left: 6.7rem;
+            color:white;
+            font-family:'open sans' ;
+            font-size: 1.4rem;
+            @media(max-width:543px)
+            {
+                margin-left: 6.9rem;
+                margin-top:13rem;
+            }
+            .Address{
+                margin-left:-1.6rem;
+                margin-bottom: 3.1rem;
+                @media(max-width:768px )
+                {
+                    font-size: 2rem;
+                }
+            }
+            .input{
+                margin-top: 3rem;
+            }
+            label{
+                @media(max-width:768px)
+                {
+                    font-size: 2.4rem;
+                }
+               
+            }
+            input{
+                width: 33.1rem;
+                height: 2.6rem;
+                margin-top: 1.1rem;
+                @media(max-width:543px)
+                {
+                   width:43.1rem;
+                }
+            }
+           
+
+            input:hover{
+                background-color: $link_hover;
+            }
+            textarea{
+                @media(max-width:998px)
+                {
+                    width:292px;
+                    height:50px;
+                }
+                @media(max-width:768px)
+                {
+                    width:240px;
+                    height:98px;
+                }
+                @media(max-width:543px)
+                {
+                    width: 312px;
+                    height: 141px;
+                }
+               
+               
+            }
+            textarea:hover
+            {
+                background-color: $link_hover;
+            }
+            .btn{
+
+                @include button($button,white,1.6rem,20.3rem);
+                width: 13.6rem;
+                height: 3.4rem;
+                margin-top: 1.3rem;
+                @media(max-width:543px)
+                {
+                    margin-left: 30.5rem;
+                }
+                
+            }
+            .btn:hover{
+                @include button_hover( white,$blue);
+            }
+        }
+    }
+    
+}
+@media(max-width:998px)
+{
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size:45%
+    }
+}
+@include Footer;
+

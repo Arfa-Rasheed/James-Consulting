@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="James.css">
+
+    <title>Document</title>
+
+    <!-- IMPORTING RALEWAY FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- IMPORTING OPEN SANS FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap"
+        rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="Logo">
+                <a href="James.html">
+                JAMES <span>CONSULTING</span>
+                </a>
+            </div>
+            <div class="NavMenu" id="Nav">
+                <ul>
+                    <label id="Cross" onclick="Close_Menu()">
+                        <i class="fa fa-times"></i>
+                    </label>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Clients.html">Clients</a></li>
+                    <li><button id="Show" onclick="Show_Contact()">Contacts</button></li>
+                   
+                </ul>
+
+            </div>
+
+            <label id="Hamburger" onclick="Show_Menu()">
+                <i class="fa fa-bars"></i>            
+            </label>
+            </navbar>
+    </header>
+   <div class="LandingPage1">
+        <div class="AchievingGrowth">
+            <p>DEVELOPING INNOVATIVE STRATEGIES</p>
+            <h1>
+                ACHIEVING GROWTH
+            </h1>
+        </div>
+    </div>
+<div class="LinksContainer">
+    <div class="LinkToDetails">
+        <div class=Links>
+            <h3>SERVICES</h3>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                click me to add your own content and make changes to the font. I’m a great place for you to tell a story
+                and
+                let your users know a little more about you.</p>
+            <button class="btn" onclick="Show_Services()">More Info</button>
+
+        </div>
+        <div class="Links">
+            <h3>PROJECTS</h3>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                click me to add your own content and make changes to the font. I’m a great place for you to tell a story
+                and
+                let your users know a little more about you.</p>
+                <button class="btn" onclick="Show_Projects()">More Info</button>
+        </div>
+
+        <div class="Links">
+            <h3>CLIENTS</h3>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                click me to add your own content and make changes to the font. I’m a great place for you to tell a story
+                and
+                let your users know a little more about you.</p>
+                <button class="btn" onclick="Show_Clients()">More Info</button>
+        </div>
+    </div>
+</div>
+   
+    <div class="AboutUsContainer">
+        <div class="AboutUs">
+            <h1>ABOUT US</h1>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                click
+                me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like
+                on your
+                page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+
+            <p>This is a great space to write long text about your company and your services. You can use this space to
+                go into
+                a little more detail about your company. Talk about your team and what services you provide. Tell your
+                visitors
+                the story of how you came up with the idea for your business and what makes you different from your
+                competitors</p>
+            <button class="btn" onclick="Show_About()">Read More</button>
+
+        </div>
+    </div>
+
+    <div class="ContactContainer" id="Contactdiv">
+        <h1>CONTACT US</h1>
+        <div class="Contact">
+            <div class="ContactMap">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.829484426207!2d-122.38939518484068!3d37.77059622017316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7f1a33f38ea7%3A0xe4941e6c1dc4022b!2s500%20Terry%20A%20Francois%20Blvd%2C%20San%20Francisco%2C%20CA%2094158%2C%20USA!5e0!3m2!1sen!2s!4v1651299420271!5m2!1sen!2s"
+                    width="490" height="538" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <div class="ContactForm">
+                <div class="Address">500 Terry Francois Street, San Francisco, CA 94158
+                    info@mysite.com Tel: 123-456-7890</div>
+
+
+                <label for="First_Name" class="input">First Name*</label>
+                <div id="First Name">
+                    <input type="text" name="first_name" id="First_Name" placeholder="">
+                </div>
+
+                <label for="Last_Name">Last Name*</label>
+                <div id="Last Name">
+                    <input type="text" name="last_name" id="Last_Name" placeholder="">
+                </div>
+
+                <label for="Email">Email*</label>
+                <div id="Email">
+                    <input type="Email" name="email" id="Email" placeholder="">
+                </div>
+
+                <label for="Subject">Subject</label>
+                <div id="Subject">
+                    <input type="text" name="subject" id="Subject" placeholder="">
+                </div>
+
+                <label for="Message">Message</label>
+                <div id="Message">
+                    <textarea name="message" id="Message" cols="43" rows="10"></textarea>
+                </div>
+
+                <button class="btn">Submit</button>
+            </div>
+        </div>
+
+    </div> 
+
+    <footer >
+        <div class="Footer_Container">
+            <div class="Footer_text">
+                © 2023 by James Consulting. Proudly created with Wix.com
+            </div>
+            <div class="Footer_Icon">
+                <ul>
+                    <li class="icons">
+                        <a href="#"><i class="fa fa-facebook-f" style="font-size:18px;COLOR:WHITE"></i></a>
+                    </li>
+                    <li class="icons">
+                        <a href="#"><i class="fa fa-twitter" style="font-size:18px;COLOR:WHITE"></i></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="James.js"></script>
+</body>
+
+</html>

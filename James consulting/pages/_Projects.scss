@@ -1,0 +1,88 @@
+.ProjectContainer{
+    // width:62%;
+    width:68%;
+    height:auto;
+    padding-top:100px;
+    margin:auto;
+    // margin-top:8rem;
+    // border:2px solid red;
+    h1{
+        font-size: 7rem;
+        text-align: center;
+        line-height: normal;
+        letter-spacing: normal;
+        font-weight: 300;
+        color: $blue;
+        font-family:'raleway' 
+    }
+    .ProjectList{
+        margin-top:-1.3rem;
+        @media(max-width:543px)
+        {
+            margin-top: -7.3rem;
+        }
+        .Projects{
+            display:flex;
+            margin-top: 8.9rem;
+            width: 89.9rem;
+            @media(max-width:543px)
+            {
+                display:block;
+                margin-top: 15.9rem;
+            }
+            img{
+                @media(max-width:543px)
+                {
+                    width: 365px;
+                } 
+            }
+            .ProjectsText{
+                margin-top: -2.5rem;
+                margin-left: 4rem;
+                font-family: 'raleway';
+                color:$blue;
+                width: 51.5rem;
+                @media(max-width:543px)
+                {
+                    margin-top: 1.5rem;
+                    margin-left: 0rem;
+                    width: 53.5rem;
+                
+                }
+                .ProjectName{
+                    font-size: 2.2rem;
+                    color: $blue;
+                    @media(max-width:543px)
+                    {
+                        font-size: 3.2rem;
+                    } 
+         
+                }
+                p{
+                    line-height: 1.5em;
+                    font-size: 1.4rem;
+                    @media(max-width:998px)
+                    {
+                       font-size: 1.8rem;
+                        html{
+                            font-size:55%;
+                            }
+                    } 
+                    @media(max-width:543px)
+                    {
+                        font-size: 2.3rem;
+                    }  
+
+                }
+            }
+        }
+    }
+   
+}
+.Project_Footer{
+    margin-top:8.2rem;
+    @media(max-width:543px)
+    {
+        margin-top: 11.2rem;
+    }
+}

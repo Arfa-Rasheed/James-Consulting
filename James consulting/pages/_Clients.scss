@@ -1,0 +1,53 @@
+.ClientsContainer
+{
+    width:60%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+  
+    @media(max-width:998px)
+    {
+        width:59%;
+
+        html{
+            font-size:45%
+        }
+    }
+    @media(max-width:768px)
+    {
+        width:72%;
+
+        html{
+            font-size:45%
+        }
+    }
+    @media(max-width:543px)
+    {
+        width:100%;
+
+    }
+    .Clients{
+        margin-left: 85px;
+        margin-top: 57px;
+        width:150px;
+        height:150px;
+
+    }
+}
+@media(max-width:998px)
+{
+    
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size:45%
+    }
+}
+.Clients_Footer{
+    margin-top:78px;
+}
